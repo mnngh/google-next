@@ -3,6 +3,7 @@ import Link from "next/link";
 import SearchBox from "./SearchBox";
 import { BiSolidGrid } from "react-icons/bi";
 import { IoSettings } from "react-icons/io5";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 
 export default function SearchHeader() {
   return (
@@ -31,6 +32,7 @@ export default function SearchHeader() {
           Sign in
         </button>
       </div>
+      <SearchHeaderOptions />
     </header>
   );
 }
